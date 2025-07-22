@@ -1,0 +1,17 @@
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\Services.deps.json
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\Services.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\Services.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\BusinessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\DataAccessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\bin\Debug\net8.0\BusinessObjects.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\refint\Services.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\ref\Services.dll

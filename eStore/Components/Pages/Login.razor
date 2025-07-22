@@ -1,0 +1,61 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Components.Authorization
+@using eStore.DTO.MemberDTO.Response
+@using eStore.DTO.MemberDTO.Request
+@using Services;
+@using System.Security.Claims;
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject DataAccessObjects.IUnitOfWork UnitOfWork
+
+<PageTitle>Login</PageTitle>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <InputText @bind-Value="loginModel.Email" placeholder="Email" />
+    <InputText @bind-Value="loginModel.Password" placeholder="Mật khẩu" type="password" />
+    <button type="submit">Đăng nhập</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color:red">@errorMessage</p>
+}
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <p style="color:green">@successMessage</p>
+}
+
+@code {
+    private LoginRequest loginModel = new();
+    private string errorMessage = string.Empty;
+    private string successMessage = string.Empty;
+
+    private async Task HandleLogin()
+    {
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+
+        var member = UnitOfWork.Members.GetAll().FirstOrDefault(m => m.Email == loginModel.Email && m.Password == loginModel.Password); ;
+
+        if (member != null)
+        {
+            var identity = new ClaimsIdentity(new[]
+            {
+            new Claim(ClaimTypes.Name, member.Email)
+        }, "Custom authentication");
+
+            var user = new ClaimsPrincipal(identity);
+
+            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user);
+
+            successMessage = "Đăng nhập thành công!";
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            errorMessage = "Tài khoản hoặc mật khẩu không đúng.";
+        }
+    }
+}

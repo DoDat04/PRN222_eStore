@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Routes.razor",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Routes.razor",
+              "RelativeToolTip": "eStore\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T18:24:51.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Program.cs",
+              "RelativeDocumentMoniker": "eStore\\Program.cs",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Program.cs",
+              "RelativeToolTip": "eStore\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:59:56.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\Services\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Services\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\Services\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Services\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:48:00.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T15:56:31.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

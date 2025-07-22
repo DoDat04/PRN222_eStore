@@ -1,0 +1,15 @@
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
