@@ -17,111 +17,113 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eStore
 build_property.RootNamespace = eStore
-build_property.ProjectDir = E:\FPT\PRN222\GroupASM\PRN222_eStore\eStore\
+build_property.ProjectDir = C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\eStore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\FPT\PRN222\GroupASM\PRN222_eStore\eStore
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\eStore
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/App.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/CategoryPages/Create.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/CategoryPages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VzXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/CategoryPages/Delete.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/CategoryPages/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VzXERlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/CategoryPages/Details.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/CategoryPages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VzXERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/CategoryPages/Edit.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/CategoryPages/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VzXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/CategoryPages/Index.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/CategoryPages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/Counter.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/Error.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/Home.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/Login.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/MemberPages/Create.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/MemberPages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW1iZXJQYWdlc1xDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/MemberPages/Delete.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/MemberPages/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW1iZXJQYWdlc1xEZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/MemberPages/Details.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/MemberPages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW1iZXJQYWdlc1xEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/MemberPages/Edit.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/MemberPages/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW1iZXJQYWdlc1xFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/MemberPages/Index.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/MemberPages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZW1iZXJQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/ProductPages/Create.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/ProductPages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZXNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/ProductPages/Delete.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/ProductPages/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZXNcRGVsZXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/ProductPages/Details.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/ProductPages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZXNcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/ProductPages/Edit.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/ProductPages/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZXNcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/ProductPages/Index.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/ProductPages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Pages/Weather.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Routes.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/_Imports.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Layout/MainLayout.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-vict14333r
 
-[E:/FPT/PRN222/GroupASM/PRN222_eStore/eStore/Components/Layout/NavMenu.razor]
+[C:/Users/ADMIN LAM/OneDrive/Documents/PRN222/eStore/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7lcvky3hjj

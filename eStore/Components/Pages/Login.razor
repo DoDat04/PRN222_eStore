@@ -7,10 +7,10 @@
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject NavigationManager NavigationManager
 @inject DataAccessObjects.IUnitOfWork UnitOfWork
-
+@inject IConfiguration Configuration
 <PageTitle>Login</PageTitle>
 
-<EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
+<EditForm method="post" Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <InputText @bind-Value="loginModel.Email" placeholder="Email" />
@@ -28,7 +28,8 @@
 }
 
 @code {
-    private LoginRequest loginModel = new();
+    [SupplyParameterFromForm]
+    private LoginRequest loginModel { get; set; } = new();
     private string errorMessage = string.Empty;
     private string successMessage = string.Empty;
 
@@ -36,10 +37,12 @@
     {
         errorMessage = string.Empty;
         successMessage = string.Empty;
+        var adminEmail = Configuration["AdminAccount:Email"];
+        var adminPassword = Configuration["AdminAccount:Password"];
 
         var member = UnitOfWork.Members.GetAll().FirstOrDefault(m => m.Email == loginModel.Email && m.Password == loginModel.Password); ;
 
-        if (member != null)
+        if (member != null) 
         {
             var identity = new ClaimsIdentity(new[]
             {
@@ -51,11 +54,21 @@
             await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user);
 
             successMessage = "Đăng nhập thành công!";
-            NavigationManager.NavigateTo("/");
+            NavigationManager.NavigateTo("/Products");
         }
-        else
+        if (loginModel.Email == adminEmail && loginModel.Password == adminPassword)
         {
-            errorMessage = "Tài khoản hoặc mật khẩu không đúng.";
+            var identity = new ClaimsIdentity(new[]
+            {
+                new Claim(ClaimTypes.Name, adminEmail),
+                new Claim(ClaimTypes.Role, "Admin")
+            }, "Custom authentication");
+            var user = new ClaimsPrincipal(identity);
+
+            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user);
+
+            successMessage = "Đăng nhập thành công!";
+            NavigationManager.NavigateTo("/Members");
         }
     }
 }
