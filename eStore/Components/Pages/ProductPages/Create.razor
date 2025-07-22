@@ -1,0 +1,64 @@
+﻿@page "/products/create"
+@using Microsoft.EntityFrameworkCore
+@using BusinessObjects
+@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Product</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Product" OnValidSubmit="AddProduct" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="categoryid" class="form-label">CategoryId:</label> 
+                <InputNumber id="categoryid" @bind-Value="Product.CategoryId" class="form-control" /> 
+                <ValidationMessage For="() => Product.CategoryId" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="productname" class="form-label">ProductName:</label> 
+                <InputText id="productname" @bind-Value="Product.ProductName" class="form-control" /> 
+                <ValidationMessage For="() => Product.ProductName" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="weight" class="form-label">Weight:</label> 
+                <InputText id="weight" @bind-Value="Product.Weight" class="form-control" /> 
+                <ValidationMessage For="() => Product.Weight" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="unitprice" class="form-label">UnitPrice:</label> 
+                <InputNumber id="unitprice" @bind-Value="Product.UnitPrice" class="form-control" /> 
+                <ValidationMessage For="() => Product.UnitPrice" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="unitsinstock" class="form-label">UnitsInStock:</label> 
+                <InputNumber id="unitsinstock" @bind-Value="Product.UnitsInStock" class="form-control" /> 
+                <ValidationMessage For="() => Product.UnitsInStock" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/products">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Product Product { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddProduct()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Products.Add(Product);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/products");
+    }
+}

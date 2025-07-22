@@ -1,0 +1,64 @@
+﻿@page "/members/create"
+@using Microsoft.EntityFrameworkCore
+@using BusinessObjects
+@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Member</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Member" OnValidSubmit="AddMember" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label> 
+                <InputText id="email" @bind-Value="Member.Email" class="form-control" /> 
+                <ValidationMessage For="() => Member.Email" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="companyname" class="form-label">CompanyName:</label> 
+                <InputText id="companyname" @bind-Value="Member.CompanyName" class="form-control" /> 
+                <ValidationMessage For="() => Member.CompanyName" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="city" class="form-label">City:</label> 
+                <InputText id="city" @bind-Value="Member.City" class="form-control" /> 
+                <ValidationMessage For="() => Member.City" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="country" class="form-label">Country:</label> 
+                <InputText id="country" @bind-Value="Member.Country" class="form-control" /> 
+                <ValidationMessage For="() => Member.Country" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="password" class="form-label">Password:</label> 
+                <InputText id="password" @bind-Value="Member.Password" class="form-control" /> 
+                <ValidationMessage For="() => Member.Password" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/members">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Member Member { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddMember()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Members.Add(Member);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/members");
+    }
+}

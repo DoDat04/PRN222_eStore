@@ -1,0 +1,109 @@
+﻿@page "/members/edit"
+@using Microsoft.EntityFrameworkCore
+@using BusinessObjects
+@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Edit</h1>
+
+<h2>Member</h2>
+<hr />
+@if (Member is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Member" OnValidSubmit="UpdateMember" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert"/>
+                <input type="hidden" name="Member.MemberId" value="@Member.MemberId" />
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <InputText id="email" @bind-Value="Member.Email" class="form-control" />
+                    <ValidationMessage For="() => Member.Email" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="companyname" class="form-label">CompanyName:</label>
+                    <InputText id="companyname" @bind-Value="Member.CompanyName" class="form-control" />
+                    <ValidationMessage For="() => Member.CompanyName" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-label">City:</label>
+                    <InputText id="city" @bind-Value="Member.City" class="form-control" />
+                    <ValidationMessage For="() => Member.City" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country:</label>
+                    <InputText id="country" @bind-Value="Member.Country" class="form-control" />
+                    <ValidationMessage For="() => Member.Country" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <InputText id="password" @bind-Value="Member.Password" class="form-control" />
+                    <ValidationMessage For="() => Member.Password" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/members">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromQuery]
+    private int MemberId { get; set; }
+
+    [SupplyParameterFromForm]
+    private Member? Member { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Member ??= await context.Members.FirstOrDefaultAsync(m => m.MemberId == MemberId);
+
+        if (Member is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task UpdateMember()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(Member!).State = EntityState.Modified;
+
+        try
+        {
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!MemberExists(Member!.MemberId))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/members");
+    }
+
+    private bool MemberExists(int memberid)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Members.Any(e => e.MemberId == memberid);
+    }
+}

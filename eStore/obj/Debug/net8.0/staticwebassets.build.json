@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UcG2yKi91lLNcxmEQK6eUeXGn4gCkyJN5W4ZVCmm16s=",
+  "Hash": "tObjzUQQMbkC/4i9aag0QKWqthZGoIlYctJxIPQp9gE=",
   "Source": "eStore",
   "BasePath": "_content/eStore",
   "Mode": "Default",
@@ -10,40 +10,19 @@
     {
       "Name": "eStore\\wwwroot",
       "Source": "eStore",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\",
       "BasePath": "_content/eStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css",
-      "SourceId": "eStore",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/eStore",
-      "RelativePath": "eStore#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "p0p0sobte5",
-      "Integrity": "qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css"
-    },
-    {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
-      "SourceId": "eStore",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/eStore",
-      "RelativePath": "eStore#[.{fingerprint}]!.bundle.scp.css",
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,19 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "p0p0sobte5",
-      "Integrity": "qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\app.css",
-      "SourceId": "eStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\",
-      "BasePath": "_content/eStore",
-      "RelativePath": "app#[.{fingerprint}]?.css",
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -73,568 +50,123 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "da95v2qkru",
-      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css",
+      "SourceId": "eStore",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/eStore",
+      "RelativePath": "eStore.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css"
+    },
+    {
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
+      "SourceId": "eStore",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/eStore",
+      "RelativePath": "eStore.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\app.css",
+      "SourceId": "eStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\",
+      "BasePath": "_content/eStore",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "eStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\",
       "BasePath": "_content/eStore",
-      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "eStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\",
       "BasePath": "_content/eStore",
-      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\favicon.png",
+      "Identity": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\favicon.png",
       "SourceId": "eStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\",
+      "ContentRoot": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\wwwroot\\",
       "BasePath": "_content/eStore",
-      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "RelativePath": "favicon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ifv42okdf2",
-      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "app.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2591"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
-        }
-      ]
-    },
-    {
-      "Route": "app.da95v2qkru.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2591"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "da95v2qkru"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "eStore.bundle.scp.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 17:20:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs="
-        }
-      ]
-    },
-    {
-      "Route": "eStore.p0p0sobte5.bundle.scp.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 17:20:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p0p0sobte5"
-        },
-        {
-          "Name": "label",
-          "Value": "eStore.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs="
-        }
-      ]
-    },
-    {
-      "Route": "eStore.p0p0sobte5.styles.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 17:20:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p0p0sobte5"
-        },
-        {
-          "Name": "label",
-          "Value": "eStore.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs="
-        }
-      ]
-    },
-    {
-      "Route": "eStore.styles.css",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eStore.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 17:20:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qWpCEYqO2W0DOG+hJ1zvL4aveUO5XZB/G0+ICh4EPXs="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ifv42okdf2"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.png",
-      "AssetFile": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Jul 2025 14:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
     }
   ]
 }

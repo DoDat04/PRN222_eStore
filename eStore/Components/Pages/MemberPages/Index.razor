@@ -1,0 +1,40 @@
+﻿@page "/members"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BusinessObjects
+@using BusinessObjects
+@implements IAsyncDisposable
+@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="members/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Members">
+    <PropertyColumn Property="member => member.Email" />
+    <PropertyColumn Property="member => member.CompanyName" />
+    <PropertyColumn Property="member => member.City" />
+    <PropertyColumn Property="member => member.Country" />
+    <PropertyColumn Property="member => member.Password" />
+
+    <TemplateColumn Context="member">
+        <a href="@($"members/edit?memberid={member.MemberId}")">Edit</a> |
+        <a href="@($"members/details?memberid={member.MemberId}")">Details</a> |
+        <a href="@($"members/delete?memberid={member.MemberId}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private EStoreContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

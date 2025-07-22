@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\DataAccessObjects\\DataAccessObjects.csproj": {}
+    "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {}
   },
   "projects": {
-    "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj": {
+    "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\Do Dat\\.nuget\\packages\\",
-        "outputPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\obj\\",
+        "projectPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Do Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -91,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\DataAccessObjects\\DataAccessObjects.csproj",
-        "packagesPath": "C:\\Users\\Do Dat\\.nuget\\packages\\",
-        "outputPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\DataAccessObjects\\obj\\",
+        "projectPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Do Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,14 +117,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj"
+              "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -138,8 +139,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

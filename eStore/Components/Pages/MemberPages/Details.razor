@@ -1,0 +1,54 @@
+﻿@page "/members/details"
+@using Microsoft.EntityFrameworkCore
+@using BusinessObjects
+@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Member</h2>
+    <hr />
+    @if (member is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@member.Email</dd>
+            <dt class="col-sm-2">CompanyName</dt>
+            <dd class="col-sm-10">@member.CompanyName</dd>
+            <dt class="col-sm-2">City</dt>
+            <dd class="col-sm-10">@member.City</dd>
+            <dt class="col-sm-2">Country</dt>
+            <dd class="col-sm-10">@member.Country</dd>
+            <dt class="col-sm-2">Password</dt>
+            <dd class="col-sm-10">@member.Password</dd>
+        </dl>
+        <div>
+            <a href="@($"/members/edit?memberid={member.MemberId}")">Edit</a> |
+            <a href="@($"/members")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Member? member;
+
+    [SupplyParameterFromQuery]
+    private int MemberId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        member = await context.Members.FirstOrDefaultAsync(m => m.MemberId == MemberId);
+
+        if (member is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}
