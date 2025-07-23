@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj": {}
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\eStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
         "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,8 +123,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\eStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\eStore.csproj",
         "projectName": "eStore",
-        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\eStore.csproj",
         "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,11 +192,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
               },
-              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\Services.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -291,8 +291,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {
-                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj"
               }
             }
           }

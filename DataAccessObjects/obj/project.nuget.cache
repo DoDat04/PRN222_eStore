@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YK+GGvWHCYA=",
+  "dgSpecHash": "2rqVlRJiB5k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN LAM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ADMIN LAM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

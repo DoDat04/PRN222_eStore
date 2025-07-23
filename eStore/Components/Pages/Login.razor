@@ -1,4 +1,6 @@
 ﻿@page "/login"
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
 @using Microsoft.AspNetCore.Components.Authorization
 @using eStore.DTO.MemberDTO.Response
 @using eStore.DTO.MemberDTO.Request
@@ -28,6 +30,9 @@
 }
 
 @code {
+    [CascadingParameter]
+    private HttpContext? HttpContext { get; set; }
+
     [SupplyParameterFromForm]
     private LoginRequest loginModel { get; set; } = new();
     private string errorMessage = string.Empty;
@@ -37,38 +42,53 @@
     {
         errorMessage = string.Empty;
         successMessage = string.Empty;
+
         var adminEmail = Configuration["AdminAccount:Email"];
         var adminPassword = Configuration["AdminAccount:Password"];
 
-        var member = UnitOfWork.Members.GetAll().FirstOrDefault(m => m.Email == loginModel.Email && m.Password == loginModel.Password); ;
-
-        if (member != null) 
+        // Xử lý đăng nhập admin
+        if (loginModel.Email == adminEmail && loginModel.Password == adminPassword)
         {
-            var identity = new ClaimsIdentity(new[]
-            {
-            new Claim(ClaimTypes.Name, member.Email)
-        }, "Custom authentication");
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Email, adminEmail),
+            new Claim(ClaimTypes.Name, adminEmail),
+            new Claim(ClaimTypes.Role, "Admin")
+        };
 
-            var user = new ClaimsPrincipal(identity);
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+            await HttpContext!.SignInAsync(principal);
 
-            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user);
+            successMessage = "Đăng nhập thành công (Admin)!";
+            NavigationManager.NavigateTo("/Members"); // hoặc /AdminDashboard nếu có
+            return;
+        }
+
+        // Xử lý đăng nhập người dùng thường
+        var member = UnitOfWork.Members.GetAll()
+            .FirstOrDefault(m => m.Email == loginModel.Email && m.Password == loginModel.Password);
+
+        if (member != null)
+        {
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Email, member.Email),
+            new Claim(ClaimTypes.Name, member.Email),
+            new Claim(ClaimTypes.Role, "User")
+        };
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+            await HttpContext!.SignInAsync(principal);
 
             successMessage = "Đăng nhập thành công!";
             NavigationManager.NavigateTo("/Products");
+            return;
         }
-        if (loginModel.Email == adminEmail && loginModel.Password == adminPassword)
-        {
-            var identity = new ClaimsIdentity(new[]
-            {
-                new Claim(ClaimTypes.Name, adminEmail),
-                new Claim(ClaimTypes.Role, "Admin")
-            }, "Custom authentication");
-            var user = new ClaimsPrincipal(identity);
 
-            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user);
-
-            successMessage = "Đăng nhập thành công!";
-            NavigationManager.NavigateTo("/Members");
-        }
+        // Nếu không khớp gì cả
+        errorMessage = "Email hoặc mật khẩu không đúng.";
     }
+
 }

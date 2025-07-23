@@ -2,6 +2,17 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div class="row">
+    <div class="col-12">
+        <AuthorizeView>
+            <NotAuthorized>
+                <p>You do not have permission to view this page.</p>
+                <p>Please contact your administrator if you believe this is an error.</p>
+                <p><a href="/login" class="btn btn-primary">Login</a></p>
+            </NotAuthorized>
+            <Authorized>
+                <span>Login in as <b>@context.User.Identity!.Name</b>. <a class="fw-bolder" href="logout">Click here</a>to logout</span>
+            </Authorized>
+        </AuthorizeView>
+    </div>
+</div>
