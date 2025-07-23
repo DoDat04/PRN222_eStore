@@ -4409,23 +4409,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN LAM\\.nuget\\packages\\": {},
+    "C:\\Users\\Do Dat\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
+      "projectUniqueName": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj",
       "projectName": "BusinessObjects",
-      "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
-      "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\BusinessObjects\\obj\\",
+      "projectPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\BusinessObjects.csproj",
+      "packagesPath": "C:\\Users\\Do Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\BusinessObjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Do Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4452,7 +4452,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -4499,7 +4499,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

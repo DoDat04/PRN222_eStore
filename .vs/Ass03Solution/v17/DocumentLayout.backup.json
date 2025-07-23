@@ -1,58 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\",
+  "WorkspaceRootPath": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\prn222_estore\\prn222_estore\\estore\\components\\pages\\productpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\components\\pages\\productpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\ass03solution\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,195 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\_Imports.razor",
-              "RelativeToolTip": "eStore\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:22:31.227Z",
+              "WhenOpened": "2025-07-23T18:27:34.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\App.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\App.razor",
-              "RelativeToolTip": "eStore\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\ProductPages\\Create.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Create.razor",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Components\\Pages\\ProductPages\\Create.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Create.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:42:33.356Z",
+              "WhenOpened": "2025-07-23T17:40:23.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Program.cs",
+              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Program.cs",
               "RelativeDocumentMoniker": "eStore\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Program.cs",
+              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\Ass03Solution\\eStore\\Program.cs",
               "RelativeToolTip": "eStore\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwDEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwDEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T13:54:09.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "eStore\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:23:19.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\appsettings.json",
-              "RelativeDocumentMoniker": "eStore\\appsettings.json",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\appsettings.json",
-              "RelativeToolTip": "eStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T14:56:06.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "eStore\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:25:43.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "eStore\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:26:24.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "eStore\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwEkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-22T14:48:54.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Routes.razor",
-              "RelativeToolTip": "eStore\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:30:49.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Logout.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Logout.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Logout.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\Logout.razor",
-              "RelativeToolTip": "eStore\\Components\\Pages\\Logout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:16:00.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "eStore\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:21:26.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccessDenied.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\AccessDenied.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\AccessDenied.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\AccessDenied.razor",
-              "RelativeToolTip": "eStore\\Components\\AccessDenied.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T14:12:20.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Create.razor",
-              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Create.razor",
-              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\PRN222_eStore\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Create.razor",
-              "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Create.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAWwD0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-22T14:49:21.099Z"
+              "WhenOpened": "2025-07-23T13:54:09.558Z"
             }
           ]
         },
@@ -261,30 +75,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 666,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 666,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

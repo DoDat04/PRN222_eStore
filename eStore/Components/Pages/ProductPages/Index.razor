@@ -2,9 +2,7 @@
 @using Microsoft.EntityFrameworkCore
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using BusinessObjects
-@using BusinessObjects
-@implements IAsyncDisposable
-@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@inject DataAccessObjects.IUnitOfWork UnitOfWork
 
 <PageTitle>Index</PageTitle>
 
@@ -14,11 +12,13 @@
     <a href="products/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Products">
-    <PropertyColumn Property="product => product.CategoryId" />
+<QuickGrid TGridItem="Product" Class="table" Items="products.AsQueryable()">
+    <PropertyColumn Property="product => product.Category.CategoryName" Title="Category Name" />
     <PropertyColumn Property="product => product.ProductName" />
     <PropertyColumn Property="product => product.Weight" />
-    <PropertyColumn Property="product => product.UnitPrice" />
+    <TemplateColumn Title="UnitPrice" Context="product">
+        @string.Format("{0:N0} VND", product.UnitPrice)
+    </TemplateColumn>
     <PropertyColumn Property="product => product.UnitsInStock" />
 
     <TemplateColumn Context="product">
@@ -28,13 +28,12 @@
     </TemplateColumn>
 </QuickGrid>
 
+
 @code {
-    private EStoreContext context = default!;
+    private List<Product> products = new();
 
     protected override void OnInitialized()
     {
-        context = DbFactory.CreateDbContext();
+        products = UnitOfWork.Products.GetAll(x => x.Category).ToList();
     }
-
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }

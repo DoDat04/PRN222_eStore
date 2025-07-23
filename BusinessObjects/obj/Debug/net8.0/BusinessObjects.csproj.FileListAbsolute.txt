@@ -57,3 +57,4 @@ C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\Busines
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
+D:\SEM7\PRN222\GrpAsm\Ass03Solution\BusinessObjects\obj\Debug\net8.0\BusinessObjects.sourcelink.json
