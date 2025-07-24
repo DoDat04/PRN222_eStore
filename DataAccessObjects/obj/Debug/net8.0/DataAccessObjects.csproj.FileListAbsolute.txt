@@ -13,22 +13,6 @@ D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAcces
 D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
 D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
 D:\SEM7\PRN222\GrpAsm\Ass03Solution\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.dll
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.pdb
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.sourcelink.json
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
-E:\FPT\PRN222\GroupASM\PRN222_eStore\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
