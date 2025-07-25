@@ -1,43 +1,65 @@
 ﻿@page "/"
 @page "/products"
-@using BusinessObjects
-@using DataAccessObjects.Define
-@using Microsoft.EntityFrameworkCore
-@using Microsoft.AspNetCore.Components.QuickGrid
-@using BusinessObjects
-@inject IUnitOfWork UnitOfWork
+@using Services.DTO
+@inject Services.Define.IProductService ProductService
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Danh sách sản phẩm</PageTitle>
 
-<h1>Index</h1>
+<h1>Danh sách sản phẩm</h1>
 
 <p>
-    <a href="products/create">Create New</a>
+    <a href="products/create">Tạo mới</a>
 </p>
 
-<QuickGrid TGridItem="Product" Class="table" Items="products.AsQueryable()">
-    <PropertyColumn Property="product => product.Category.CategoryName" Title="Category Name"/>
-    <PropertyColumn Property="product => product.ProductName"/>
-    <PropertyColumn Property="product => product.Weight"/>
-    <TemplateColumn Title="UnitPrice" Context="product">
-        @string.Format("{0:N0} VND", product.UnitPrice)
-    </TemplateColumn>
-    <PropertyColumn Property="product => product.UnitsInStock"/>
-
-    <TemplateColumn Context="product">
-        <a href="@($"products/edit?productid={product.ProductId}")">Edit</a> |
-        <a href="@($"products/details?productid={product.ProductId}")">Details</a> |
-        <a href="@($"products/delete?productid={product.ProductId}")">Delete</a>
-    </TemplateColumn>
-</QuickGrid>
-
+@if (products == null)
+{
+    <p>Đang tải dữ liệu...</p>
+}
+else if (!products.Any())
+{
+    <p>Không có sản phẩm nào.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Loại</th>
+                <th>Tên sản phẩm</th>
+                <th>Khối lượng</th>
+                <th>Giá</th>
+                <th>Tồn kho</th>
+                <th>Giảm giá</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.CategoryName</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.Weight</td>
+                    <td>@(product.UnitPrice.HasValue ? string.Format("{0:N0} VND", product.UnitPrice) : "")</td>
+                    <td>@product.UnitsInStock</td>
+                    <td>@($"{product.Discount * 100:0.##}%")</td>
+                    <td>
+                        <a href="@($"products/edit?productid={product.ProductId}")">Edit</a> |
+                        <a href="@($"products/details?productid={product.ProductId}")">Details</a> |
+                        <a href="@($"products/delete?productid={product.ProductId}")">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code {
-    private List<Product> products = new();
+    private List<ProductDto>? products;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        products = UnitOfWork.Products.GetAll(x => x.Category).ToList();
+        var result = await ProductService.GetAllAsync();
+        products = result.ToList();
     }
-
 }

@@ -46,7 +46,7 @@ builder.Services.Scan(scan => scan
             .AsImplementedInterfaces()
             .WithScopedLifetime()
         );
-builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 

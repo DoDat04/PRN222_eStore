@@ -1,52 +1,53 @@
 ﻿@page "/products/details"
-@using Microsoft.EntityFrameworkCore
-@using BusinessObjects
-@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@using Services.DTO
+@inject Services.Define.IProductService ProductService
 @inject NavigationManager NavigationManager
 
-<PageTitle>Details</PageTitle>
+<PageTitle>Chi tiết sản phẩm</PageTitle>
 
-<h1>Details</h1>
+<h1>Chi tiết sản phẩm</h1>
 
 <div>
-    <h2>Product</h2>
+    <h2>Thông tin sản phẩm</h2>
     <hr />
-    @if (product is null)
+    @if (Product is null)
     {
-        <p><em>Loading...</em></p>
+        <p><em>Đang tải dữ liệu...</em></p>
     }
-    else {
+    else
+    {
         <dl class="row">
-            <dt class="col-sm-2">CategoryId</dt>
-            <dd class="col-sm-10">@product.CategoryId</dd>
-            <dt class="col-sm-2">ProductName</dt>
-            <dd class="col-sm-10">@product.ProductName</dd>
-            <dt class="col-sm-2">Weight</dt>
-            <dd class="col-sm-10">@product.Weight</dd>
-            <dt class="col-sm-2">UnitPrice</dt>
-            <dd class="col-sm-10">@product.UnitPrice</dd>
-            <dt class="col-sm-2">UnitsInStock</dt>
-            <dd class="col-sm-10">@product.UnitsInStock</dd>
+            <dt class="col-sm-3">Loại sản phẩm</dt>
+            <dd class="col-sm-9">@Product.CategoryName</dd>
+            <dt class="col-sm-3">Tên sản phẩm</dt>
+            <dd class="col-sm-9">@Product.ProductName</dd>
+            <dt class="col-sm-3">Khối lượng</dt>
+            <dd class="col-sm-9">@Product.Weight</dd>
+            <dt class="col-sm-3">Giá</dt>
+            <dd class="col-sm-9">@(Product.UnitPrice.HasValue ? string.Format("{0:N0} VND", Product.UnitPrice) : "")</dd>
+            <dt class="col-sm-3">Tồn kho</dt>
+            <dd class="col-sm-9">@Product.UnitsInStock</dd>
+            <dt class="col-sm-3">Giảm giá</dt>
+            <dd class="col-sm-9">@($"{Product.Discount * 100:0.##}%")</dd>
+
         </dl>
         <div>
-            <a href="@($"/products/edit?productid={product.ProductId}")">Edit</a> |
-            <a href="@($"/products")">Back to List</a>
+            <a href="@($"/products/edit?productid={Product.ProductId}")">Chỉnh sửa</a> |
+            <a href="/products">Quay lại danh sách</a>
         </div>
     }
 </div>
 
 @code {
-    private Product? product;
+    private ProductDto? Product;
 
     [SupplyParameterFromQuery]
     private int ProductId { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        using var context = DbFactory.CreateDbContext();
-        product = await context.Products.FirstOrDefaultAsync(m => m.ProductId == ProductId);
-
-        if (product is null)
+        Product = await ProductService.GetByIdAsync(ProductId);
+        if (Product is null)
         {
             NavigationManager.NavigateTo("notfound");
         }

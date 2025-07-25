@@ -1,9 +1,11 @@
 ﻿@page "/products/create"
+@using Services.DTO
 @using BusinessObjects
 @using DataAccessObjects.Define
 @using Microsoft.EntityFrameworkCore
-@using Microsoft.EntityFrameworkCore
-@using BusinessObjects
+@using Services.Define;
+@inject IProductService ProductService
+@inject ICategoryService CategoryService
 @inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
 @inject NavigationManager NavigationManager
 @inject IUnitOfWork UnitOfWork
@@ -17,7 +19,6 @@
 <div class="row">
     <div class="col-md-4">
         <EditForm method="post" Model="Product" OnValidSubmit="AddProduct" FormName="create" Enhance>
-            <DataAnnotationsValidator/>
             <div class="mb-3">
                 <label for="categoryid" class="form-label">Category:</label>
                 <InputSelect id="categoryid" @bind-Value="Product.CategoryId" class="form-control">
@@ -31,23 +32,33 @@
             </div>
             <div class="mb-3">
                 <label for="productname" class="form-label">ProductName:</label>
-                <InputText id="productname" @bind-Value="Product.ProductName" class="form-control"/>
+                <InputText id="productname" @bind-Value="Product.ProductName" class="form-control" required />
                 <ValidationMessage For="() => Product.ProductName" class="text-danger"/>
             </div>
             <div class="mb-3">
                 <label for="weight" class="form-label">Weight:</label>
-                <InputText id="weight" @bind-Value="Product.Weight" class="form-control"/>
+                <InputText id="weight" @bind-Value="Product.Weight" class="form-control" required />
                 <ValidationMessage For="() => Product.Weight" class="text-danger"/>
             </div>
             <div class="mb-3">
                 <label for="unitprice" class="form-label">UnitPrice:</label>
-                <InputNumber id="unitprice" @bind-Value="Product.UnitPrice" class="form-control"/>
+                <InputNumber id="unitprice" @bind-Value="Product.UnitPrice" class="form-control" required />
                 <ValidationMessage For="() => Product.UnitPrice" class="text-danger"/>
             </div>
             <div class="mb-3">
                 <label for="unitsinstock" class="form-label">UnitsInStock:</label>
-                <InputNumber id="unitsinstock" @bind-Value="Product.UnitsInStock" class="form-control"/>
+                <InputNumber id="unitsinstock" @bind-Value="Product.UnitsInStock" class="form-control" required />
                 <ValidationMessage For="() => Product.UnitsInStock" class="text-danger"/>
+            </div>
+            <div class="mb-3">
+                <label for="unitsinstock" class="form-label">Image Url:</label>
+                <InputText id="unitsinstock" @bind-Value="Product.ImageUrl" class="form-control" />
+                <ValidationMessage For="() => Product.UnitsInStock" class="text-danger" />
+            </div>
+            <div class="mb-3">
+                <label for="unitsinstock" class="form-label">Discount:</label>
+                <InputNumber id="unitsinstock" @bind-Value="Product.Discount" class="form-control" required/>
+                <ValidationMessage For="() => Product.Discount" class="text-danger" />
             </div>
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
@@ -55,24 +66,22 @@
 </div>
 
 <div>
-    <a href="/products">Back to List</a>
+    <a href="/products">Quay lại danh sách</a>
 </div>
 
 @code {
-    [SupplyParameterFromForm] private Product Product { get; set; } = new();
+    [SupplyParameterFromForm] private ProductDto Product { get; set; } = new();
 
-    private List<Category> Categories = new();
+    private List<CategoryDto> Categories = new();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Categories = UnitOfWork.Categorys.GetAll().ToList();
+        Categories = (await CategoryService.GetAllAsync()).ToList();
     }
 
-    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddProduct()
     {
-        UnitOfWork.Products.Add(Product);
-        UnitOfWork.Save();
+        await ProductService.AddAsync(Product);
         NavigationManager.NavigateTo("/products");
     }
 

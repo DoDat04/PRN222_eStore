@@ -12,11 +12,12 @@ namespace DataAccessObjects.Implement
         public IMemberRepository Members { get; }
         public IProductRepository Products { get; }
 
-        public UnitOfWork(EStoreContext context, IMemberRepository members, IProductRepository products)
+        public UnitOfWork(EStoreContext context, IMemberRepository members, IProductRepository products, IGenericRepository<Category> categories)
         {
             _context = context;
             Members = members;
             Products = products;
+            Categorys = categories;
         }
 
         public void Save()
