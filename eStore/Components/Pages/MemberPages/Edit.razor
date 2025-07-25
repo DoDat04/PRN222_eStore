@@ -14,8 +14,8 @@
 else
 {
     <div class="row">
-        <div class="col-md-4">
-            <EditForm Model="Member" OnValidSubmit="UpdateMember" FormName="EditMemberForm">
+        <div class="col-md-6">
+            <EditForm Model="Member" OnValidSubmit="UpdateMember">
                 <DataAnnotationsValidator />
                 <ValidationSummary />
 
@@ -40,11 +40,14 @@ else
                     <InputText @bind-Value="Member.Password" class="form-control" readonly />
                 </div>
 
-                <div class="mb-3 form-check">
-                    <InputCheckbox @bind-Value="Member.IsActive" class="form-check-input" id="isActiveCheckbox" />
-                    <label for="isActiveCheckbox" class="form-check-label">
-                        @(Member.IsActive ? "Hoạt động" : "Vô hiệu hóa")
-                    </label>
+                <div class="mb-3">
+                    <label class="form-label">Trạng thái:</label>
+                    <div class="form-check">
+                        <InputCheckbox @bind-Value="Member.IsActive" class="form-check-input" id="isActiveCheckbox" />
+                        <label for="isActiveCheckbox" class="form-check-label">
+                            @(Member.IsActive ? "Hoạt động" : "Vô hiệu hóa")
+                        </label>
+                    </div>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Lưu trạng thái</button>
@@ -77,11 +80,8 @@ else
     {
         if (Member is null) return;
 
-        // Bỏ qua checkbox, luôn gán IsActive = false
-        Member.IsActive = false;
-
+        // KHÔNG cần gán lại IsActive vì đã được binding
         await MemberService.UpdateAsync(Member);
         NavigationManager.NavigateTo("/members");
     }
-
 }

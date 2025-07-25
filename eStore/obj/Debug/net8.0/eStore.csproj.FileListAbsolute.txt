@@ -1677,3 +1677,4 @@ D:\SEM7\PRN222\GrpAsm\PRN222_eStore\eStore\obj\Debug\net8.0\staticwebassets.upTo
 D:\SEM7\PRN222\GrpAsm\PRN222_eStore\eStore\obj\Debug\net8.0\eStore.csproj.Up2Date
 D:\SEM7\PRN222\GrpAsm\PRN222_eStore\eStore\obj\Debug\net8.0\eStore.genruntimeconfig.cache
 D:\SEM7\PRN222\GrpAsm\PRN222_eStore\eStore\obj\Debug\net8.0\ref\eStore.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\eStore\bin\Debug\net8.0\Scrutor.dll

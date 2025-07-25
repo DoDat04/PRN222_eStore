@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\",
+  "WorkspaceRootPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\estore\\components\\pages\\productpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\implement\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\implement\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\estore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\estore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\productpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\services\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\services\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,73 +46,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\MemberService.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\MemberService.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\MemberService.cs",
+              "RelativeToolTip": "Services\\Implement\\MemberService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:13:51.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\MemberDto.cs",
+              "RelativeDocumentMoniker": "Services\\DTO\\MemberDto.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\MemberDto.cs",
+              "RelativeToolTip": "Services\\DTO\\MemberDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:13:30.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Services",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T13:13:27.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T13:10:10.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "eStore",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
+              "RelativeDocumentMoniker": "eStore\\eStore.csproj",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
+              "RelativeToolTip": "eStore\\eStore.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T13:10:00.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Details.razor",
-              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Details.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Details.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Details.razor",
-              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Details.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Details.razor",
               "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Details.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-25T11:47:54.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.razor",
-              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
-              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T11:46:47.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T11:46:47.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ProductDto.cs",
-              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\Services\\DTO\\ProductDto.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\ProductDto.cs",
               "RelativeDocumentMoniker": "Services\\DTO\\ProductDto.cs",
-              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\Services\\DTO\\ProductDto.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\ProductDto.cs",
               "RelativeToolTip": "Services\\DTO\\ProductDto.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T11:46:30.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T11:46:30.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\Services\\Implement\\ProductService.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\Implement\\ProductService.cs",
-              "ToolTip": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\Services\\Implement\\ProductService.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\ProductService.cs",
               "RelativeToolTip": "Services\\Implement\\ProductService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:30:53.405Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 71,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
