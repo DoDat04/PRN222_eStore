@@ -1,4 +1,9 @@
 ﻿@page "/login"
+@using System.Security.Claims
+@using DataAccessObjects.Define
+@using eStore.DTO.MemberDTO.Request
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
 @using Microsoft.AspNetCore.Components.Authorization
@@ -6,17 +11,18 @@
 @using eStore.DTO.MemberDTO.Request
 @using Services;
 @using System.Security.Claims;
+using DataAccessObjects.Define;
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject NavigationManager NavigationManager
-@inject DataAccessObjects.IUnitOfWork UnitOfWork
+@inject IUnitOfWork UnitOfWork
 @inject IConfiguration Configuration
 <PageTitle>Login</PageTitle>
 
 <EditForm method="post" Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-    <InputText @bind-Value="loginModel.Email" placeholder="Email" />
-    <InputText @bind-Value="loginModel.Password" placeholder="Mật khẩu" type="password" />
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <InputText @bind-Value="loginModel.Email" placeholder="Email"/>
+    <InputText @bind-Value="loginModel.Password" placeholder="Mật khẩu" type="password"/>
     <button type="submit">Đăng nhập</button>
 </EditForm>
 <p>
@@ -36,11 +42,9 @@
 }
 
 @code {
-    [CascadingParameter]
-    private HttpContext? HttpContext { get; set; }
+    [CascadingParameter] private HttpContext? HttpContext { get; set; }
 
-    [SupplyParameterFromForm]
-    private LoginRequest loginModel { get; set; } = new();
+    [SupplyParameterFromForm] private LoginRequest loginModel { get; set; } = new();
     private string errorMessage = string.Empty;
     private string successMessage = string.Empty;
 
@@ -56,11 +60,11 @@
         if (loginModel.Email == adminEmail && loginModel.Password == adminPassword)
         {
             var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Email, adminEmail),
-            new Claim(ClaimTypes.Name, adminEmail),
-            new Claim(ClaimTypes.Role, "Admin")
-        };
+            {
+                new Claim(ClaimTypes.Email, adminEmail),
+                new Claim(ClaimTypes.Name, adminEmail),
+                new Claim(ClaimTypes.Role, "Admin")
+            };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
@@ -78,11 +82,11 @@
         if (member != null)
         {
             var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Email, member.Email),
-            new Claim(ClaimTypes.Name, member.Email),
-            new Claim(ClaimTypes.Role, "User")
-        };
+            {
+                new Claim(ClaimTypes.Email, member.Email),
+                new Claim(ClaimTypes.Name, member.Email),
+                new Claim(ClaimTypes.Role, "User")
+            };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);

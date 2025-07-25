@@ -1,9 +1,11 @@
 ﻿@page "/"
 @page "/products"
+@using BusinessObjects
+@using DataAccessObjects.Define
 @using Microsoft.EntityFrameworkCore
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using BusinessObjects
-@inject DataAccessObjects.IUnitOfWork UnitOfWork
+@inject IUnitOfWork UnitOfWork
 
 <PageTitle>Index</PageTitle>
 
@@ -14,13 +16,13 @@
 </p>
 
 <QuickGrid TGridItem="Product" Class="table" Items="products.AsQueryable()">
-    <PropertyColumn Property="product => product.Category.CategoryName" Title="Category Name" />
-    <PropertyColumn Property="product => product.ProductName" />
-    <PropertyColumn Property="product => product.Weight" />
+    <PropertyColumn Property="product => product.Category.CategoryName" Title="Category Name"/>
+    <PropertyColumn Property="product => product.ProductName"/>
+    <PropertyColumn Property="product => product.Weight"/>
     <TemplateColumn Title="UnitPrice" Context="product">
         @string.Format("{0:N0} VND", product.UnitPrice)
     </TemplateColumn>
-    <PropertyColumn Property="product => product.UnitsInStock" />
+    <PropertyColumn Property="product => product.UnitsInStock"/>
 
     <TemplateColumn Context="product">
         <a href="@($"products/edit?productid={product.ProductId}")">Edit</a> |
@@ -37,4 +39,5 @@
     {
         products = UnitOfWork.Products.GetAll(x => x.Category).ToList();
     }
+
 }

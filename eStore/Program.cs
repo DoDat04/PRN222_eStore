@@ -1,15 +1,10 @@
 using eStore.Components;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Services;
-using System.Text;
 using BusinessObjects;
 using Microsoft.EntityFrameworkCore;
-using DataAccessObjects;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Services.Interface;
-using Services.Implement;
+using System.Configuration;
+using DataAccessObjects.Define;
+using DataAccessObjects.Implement;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,8 +21,6 @@ builder.Services.AddDbContextFactory<EStoreContext>(options =>
 });
 
 
-
-
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -42,11 +35,22 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
+
+// Register DI
+builder.Services.Scan(scan => scan
+            .FromAssemblies(
+                typeof(Services.Define.IMemberService).Assembly,
+                typeof(DataAccessObjects.Define.IProductRepository).Assembly
+            )
+            .AddClasses()
+            .AsImplementedInterfaces()
+            .WithScopedLifetime()
+        );
+builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IMemberService, MemberService>();
+
 
 builder.Services.AddAuthorizationCore();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

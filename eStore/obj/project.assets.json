@@ -2324,6 +2324,23 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "Scrutor/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.DependencyModel": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Scrutor.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Scrutor.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.CodeDom/5.0.0": {
         "type": "package",
         "compile": {
@@ -6928,6 +6945,27 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "Scrutor/6.0.0": {
+      "sha512": "KK8R6j19cDWOjKPxeVwxkqoD/VQqb4ZX8VEeTMCMlOUC7N28NHZzJ8rHBmHvfG2aecXrvtXqWl3+ExvtYW3eFA==",
+      "type": "package",
+      "path": "scrutor/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Scrutor.dll",
+        "lib/net462/Scrutor.pdb",
+        "lib/net462/Scrutor.xml",
+        "lib/net8.0/Scrutor.dll",
+        "lib/net8.0/Scrutor.pdb",
+        "lib/net8.0/Scrutor.xml",
+        "lib/netstandard2.0/Scrutor.dll",
+        "lib/netstandard2.0/Scrutor.pdb",
+        "lib/netstandard2.0/Scrutor.xml",
+        "scrutor.6.0.0.nupkg.sha512",
+        "scrutor.nuspec"
+      ]
+    },
     "System.CodeDom/5.0.0": {
       "sha512": "JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
       "type": "package",
@@ -8176,23 +8214,29 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Scrutor >= 6.0.0",
       "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\nntnn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
+      "projectUniqueName": "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\eStore\\eStore.csproj",
       "projectName": "eStore",
-      "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\obj\\",
+      "projectPath": "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\eStore\\eStore.csproj",
+      "packagesPath": "C:\\Users\\nntnn\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\eStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nntnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8200,18 +8244,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj": {
-              "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj"
+            "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\Services\\Services.csproj": {
+              "projectPath": "D:\\FPT\\PRN222\\Project\\FinalProject\\PRN222_eStore\\Services\\Services.csproj"
             }
           }
         }
@@ -8225,7 +8269,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8252,6 +8297,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "Scrutor": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [
@@ -8273,7 +8322,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -70,3 +70,21 @@ D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0
 D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\refint\Services.dll
 D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.pdb
 D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\ref\Services.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\Services.deps.json
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\Services.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\Services.pdb
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\BusinessObjects.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\DataAccessObjects.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\bin\Debug\net8.0\BusinessObjects.pdb
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\refint\Services.dll
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\Services.pdb
+D:\FPT\PRN222\Project\FinalProject\PRN222_eStore\Services\obj\Debug\net8.0\ref\Services.dll

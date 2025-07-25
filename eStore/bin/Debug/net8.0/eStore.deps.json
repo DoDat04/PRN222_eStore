@@ -14,6 +14,7 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
+          "Scrutor": "6.0.0",
           "Services": "1.0.0"
         },
         "runtime": {
@@ -1802,6 +1803,18 @@
           }
         }
       },
+      "Scrutor/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.DependencyModel": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Scrutor.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
       "System.CodeDom/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -3053,6 +3066,13 @@
       "sha512": "sha512-v/GGlIj2dd7svplFmASWEueu62veKW0MrMtBaZ7QG8aJTSGv2yE+pgUGhXRcQ4nxNOEq/wLBrz1vkth/1SND7A==",
       "path": "nuget.versioning/6.11.0",
       "hashPath": "nuget.versioning.6.11.0.nupkg.sha512"
+    },
+    "Scrutor/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KK8R6j19cDWOjKPxeVwxkqoD/VQqb4ZX8VEeTMCMlOUC7N28NHZzJ8rHBmHvfG2aecXrvtXqWl3+ExvtYW3eFA==",
+      "path": "scrutor/6.0.0",
+      "hashPath": "scrutor.6.0.0.nupkg.sha512"
     },
     "System.CodeDom/5.0.0": {
       "type": "package",

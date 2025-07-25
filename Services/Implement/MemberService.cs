@@ -1,7 +1,7 @@
 ﻿using BusinessObjects;
-using DataAccessObjects;
+using DataAccessObjects.Define;
 using Services.DTO;
-using Services.Interface;
+using Services.Define;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

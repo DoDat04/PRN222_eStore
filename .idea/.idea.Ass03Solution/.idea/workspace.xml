@@ -1,11 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fe18358-5310-412f-9408-b3e5d8768783" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ass03Solution/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ass03Solution/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ass03Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ass03Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Ass03Solution/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/FileContentIndex/13718ea7-0339-4523-8410-ba67ff757bfd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/FileContentIndex/21163b83-ad03-4c69-8163-d73f5ed4fa5d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/FileContentIndex/5d20a3b4-731f-42ae-8869-42ea87f4af06.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/FileContentIndex/61c72e4e-730e-4e80-8151-84594930296b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/FileContentIndex/687142cf-6e41-4a30-9abd-b31fc45188e6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Ass03Solution/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Ass03Solution/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ass03Solution/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Ass03Solution/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/EStoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/EStoreContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/Member.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/Member.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/bin/Debug/net8.0/BusinessObjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/bin/Debug/net8.0/BusinessObjects.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/bin/Debug/net8.0/BusinessObjects.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/bin/Debug/net8.0/BusinessObjects.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/BusinessObjects.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/BusinessObjects.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/BusinessObjects.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/BusinessObjects.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/BusinessObjects.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/ref/BusinessObjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/ref/BusinessObjects.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/refint/BusinessObjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/Debug/net8.0/refint/BusinessObjects.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessObjects/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessObjects/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/GenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/IUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/UnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/DataAccessObjects.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/DataAccessObjects.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/DataAccessObjects.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/DataAccessObjects.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/Debug/net8.0/DataAccessObjects.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessObjects/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessObjects/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Implement/MemberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Implement/MemberService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Interface/IMemberService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/Login.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Details.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Details.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Edit.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Edit.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/MemberPages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/ProductPages/Create.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/ProductPages/Create.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/ProductPages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/ProductPages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Components/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Components/Pages/Register.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/eStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/eStore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/Debug/net8.0/eStore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/eStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/eStore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/eStore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/eStore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eStore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/eStore/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "2109TruongNguyen"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.eStore: IIS Express">
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DoDat04/PRN222_eStore.git",
+    "accountId": "5e55fb4a-0b1b-4c14-ad8e-5f3f8e658905"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="30M65dMjB05RIsdvlk3nfDi9SHU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.eStore: https">
     <configuration name="eStore: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/eStore/eStore.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -52,4 +183,21 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fe18358-5310-412f-9408-b3e5d8768783" name="Changes" comment="" />
+      <created>1753424913881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753424913881</updated>
+      <workItem from="1753424915909" duration="637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
 </project>
