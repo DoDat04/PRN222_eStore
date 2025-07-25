@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj": {}
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj": {}
   },
   "projects": {
-    "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
+        "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,15 +117,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -131,7 +138,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -152,21 +160,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj",
         "projectName": "eStore",
-        "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\eStore.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\eStore.csproj",
+        "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,18 +186,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\BusinessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
               },
-              "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj": {
-                "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj"
               }
             }
           }
@@ -199,7 +210,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -251,21 +263,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj": {
+    "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\ADMIN LAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -273,15 +289,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
-                "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj"
+              "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj"
               }
             }
           }
@@ -295,7 +310,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -322,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
