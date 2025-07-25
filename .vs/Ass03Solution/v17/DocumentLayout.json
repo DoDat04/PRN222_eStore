@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -41,6 +42,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\sem7\\prn222\\grpasm\\prn222_estore\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|c:\\users\\admin lam\\onedrive\\documents\\prn222\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> f3a1dcefa69f3d72bde006c9f2196577845a6fb0
     }
   ],
   "DocumentGroupContainers": [
@@ -75,6 +84,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Login.razor",
               "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\Components\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Login.razor",
@@ -96,10 +106,21 @@
               "ViewState": "AgIAABwAAAAAAAAAAAAAADMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T16:06:33.497Z",
+=======
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\Components\\App.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\Components\\App.razor",
+              "RelativeToolTip": "eStore\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T14:06:19.058Z",
+>>>>>>> f3a1dcefa69f3d72bde006c9f2196577845a6fb0
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "MemberDto.cs",
               "DocumentMoniker": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\Services\\DTO\\MemberDto.cs",
@@ -195,6 +216,29 @@
               "WhenOpened": "2025-07-25T11:30:53.405Z"
             }
           ]
+=======
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\Program.cs",
+              "RelativeDocumentMoniker": "eStore\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN LAM\\OneDrive\\Documents\\PRN222\\eStore\\Program.cs",
+              "RelativeToolTip": "eStore\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:05:37.71Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+>>>>>>> f3a1dcefa69f3d72bde006c9f2196577845a6fb0
         }
       ]
     }
