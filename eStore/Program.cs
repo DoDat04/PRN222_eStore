@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Configuration;
 using DataAccessObjects.Define;
 using DataAccessObjects.Implement;
+using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,7 +49,7 @@ builder.Services.Scan(scan => scan
         );
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+builder.Services.AddScoped<CustomAuthenticationStateProvider>();
 
 builder.Services.AddAuthorizationCore();
 var app = builder.Build();

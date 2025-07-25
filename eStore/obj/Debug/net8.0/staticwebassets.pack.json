@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
-      "PackagePath": "staticwebassets\\eStore.bundle.scp.css"
+      "Id": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eStore.p0p0sobte5.bundle.scp.css"
     },
     {
-      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\app.css",
+      "Id": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\favicon.png",
+      "Id": "D:\\SEM7\\PRN222\\GrpAsm\\PRN222_eStore\\eStore\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
@@ -31,6 +31,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eStore.props",
       "PackagePath": "buildTransitive\\eStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eStore.Microsoft.AspNetCore.StaticWebAssets.props",

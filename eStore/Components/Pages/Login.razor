@@ -4,15 +4,10 @@
 @using eStore.DTO.MemberDTO.Request
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
-@using Microsoft.AspNetCore.Authentication
-@using Microsoft.AspNetCore.Authentication.Cookies
 @using Microsoft.AspNetCore.Components.Authorization
 @using eStore.DTO.MemberDTO.Response
-@using eStore.DTO.MemberDTO.Request
 @using Services;
-@using System.Security.Claims;
-using DataAccessObjects.Define;
-@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject CustomAuthenticationStateProvider AuthProvider
 @inject NavigationManager NavigationManager
 @inject IUnitOfWork UnitOfWork
 @inject IConfiguration Configuration
@@ -42,7 +37,7 @@ using DataAccessObjects.Define;
 }
 
 @code {
-    [CascadingParameter] private HttpContext? HttpContext { get; set; }
+    // [CascadingParameter] private HttpContext? HttpContext { get; set; }  // XÓA DÒNG NÀY
 
     [SupplyParameterFromForm] private LoginRequest loginModel { get; set; } = new();
     private string errorMessage = string.Empty;
@@ -68,7 +63,7 @@ using DataAccessObjects.Define;
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
-            await HttpContext!.SignInAsync(principal);
+            await AuthProvider.MarkUserAsAuthenticated(principal);
 
             successMessage = "Đăng nhập thành công (Admin)!";
             NavigationManager.NavigateTo("/Members"); // hoặc /AdminDashboard nếu có
@@ -90,7 +85,7 @@ using DataAccessObjects.Define;
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
-            await HttpContext!.SignInAsync(principal);
+            await AuthProvider.MarkUserAsAuthenticated(principal);
 
             successMessage = "Đăng nhập thành công!";
             NavigationManager.NavigateTo("/Products");
