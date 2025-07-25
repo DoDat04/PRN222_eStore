@@ -1,54 +1,55 @@
 ﻿@page "/members/details"
-@using Microsoft.EntityFrameworkCore
-@using BusinessObjects
-@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@using Services.DTO
+@inject Services.Interface.IMemberService MemberService
 @inject NavigationManager NavigationManager
 
-<PageTitle>Details</PageTitle>
+<PageTitle>Chi tiết thành viên</PageTitle>
 
-<h1>Details</h1>
+<h1>Chi tiết thành viên</h1>
 
 <div>
-    <h2>Member</h2>
+    <h2>Thông tin thành viên</h2>
     <hr />
     @if (member is null)
     {
-        <p><em>Loading...</em></p>
+        <p><em>Đang tải...</em></p>
     }
-    else {
+    else
+    {
         <dl class="row">
             <dt class="col-sm-2">Email</dt>
             <dd class="col-sm-10">@member.Email</dd>
-            <dt class="col-sm-2">CompanyName</dt>
+            <dt class="col-sm-2">Công ty</dt>
             <dd class="col-sm-10">@member.CompanyName</dd>
-            <dt class="col-sm-2">City</dt>
+            <dt class="col-sm-2">Thành phố</dt>
             <dd class="col-sm-10">@member.City</dd>
-            <dt class="col-sm-2">Country</dt>
+            <dt class="col-sm-2">Quốc gia</dt>
             <dd class="col-sm-10">@member.Country</dd>
-            <dt class="col-sm-2">Password</dt>
+            <dt class="col-sm-2">Mật khẩu</dt>
             <dd class="col-sm-10">@member.Password</dd>
+            <dt class="col-sm-2">Trạng thái</dt>
+            <dd class="col-sm-10">@(member.IsActive ? "Hoạt động" : "Vô hiệu hóa")</dd>
         </dl>
         <div>
-            <a href="@($"/members/edit?memberid={member.MemberId}")">Edit</a> |
-            <a href="@($"/members")">Back to List</a>
+            <a href="@($"/members/edit?memberid={member.MemberId}")">Sửa</a> |
+            <a href="/members">Quay lại danh sách</a>
         </div>
     }
 </div>
 
 @code {
-    private Member? member;
+    private MemberDto? member;
 
     [SupplyParameterFromQuery]
     private int MemberId { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        using var context = DbFactory.CreateDbContext();
-        member = await context.Members.FirstOrDefaultAsync(m => m.MemberId == MemberId);
+        member = await MemberService.GetByIdAsync(MemberId);
 
         if (member is null)
         {
-            NavigationManager.NavigateTo("notfound");
+            NavigationManager.NavigateTo("/notfound");
         }
     }
 }

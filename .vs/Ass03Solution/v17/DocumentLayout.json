@@ -1,25 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\",
+  "WorkspaceRootPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|e:\\fpt\\prn222\\groupasm\\prn222_estore\\estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\memberpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\memberpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\implement\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\implement\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\services\\interface\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C45FDD6-E6AD-4182-8094-EE55287C74F8}|Services\\Services.csproj|solutionrelative:services\\interface\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1769F3B-2039-46CF-AE02-4322B5AB434A}|DataAccessObjects\\DataAccessObjects.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\dataaccessobjects\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1769F3B-2039-46CF-AE02-4322B5AB434A}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1769F3B-2039-46CF-AE02-4322B5AB434A}|DataAccessObjects\\DataAccessObjects.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\dataaccessobjects\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1769F3B-2039-46CF-AE02-4322B5AB434A}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2195F587-6718-42A3-8944-924616573C74}|BusinessObjects\\BusinessObjects.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\businessobjects\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2195F587-6718-42A3-8944-924616573C74}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\estorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|e:\\fpt\\prn222\\groupasm\\prn222_estore\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|e:\\fpt\\prn222\\groupasm\\prn222_estore\\estore\\components\\pages\\productpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\pages\\productpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\pages\\productpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|e:\\fpt\\prn222\\groupasm\\prn222_estore\\estore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|e:\\fpt\\prn222\\groupasm\\prn222_estore\\estore\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|d:\\achire\\fpt document\\prn_group_project\\prn222_estore\\estore\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DF04E98-4F2A-42F2-B69C-B62369B15906}|eStore\\eStore.csproj|solutionrelative:estore\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,11 +106,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -42,19 +122,262 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Create.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Create.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Create.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:05:07.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Delete.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Delete.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Delete.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Delete.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:05:07.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:05:06.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccessDenied.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\AccessDenied.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\AccessDenied.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\AccessDenied.razor",
+              "RelativeToolTip": "eStore\\Components\\AccessDenied.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:05:02.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Edit.razor",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:51:29.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:46:31.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Details.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Details.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Details.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Details.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:55:18.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Index.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\MemberPages\\Index.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\MemberPages\\Index.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\MemberPages\\Index.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwC8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:51:30.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Program.cs",
+              "RelativeDocumentMoniker": "eStore\\Program.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Program.cs",
+              "RelativeToolTip": "eStore\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:49:48.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\_Imports.razor",
+              "RelativeToolTip": "eStore\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:51:06.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Register.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:46:15.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\MemberService.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\MemberService.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Implement\\MemberService.cs",
+              "RelativeToolTip": "Services\\Implement\\MemberService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:41:33.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Interface\\IMemberService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IMemberService.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Interface\\IMemberService.cs",
+              "RelativeToolTip": "Services\\Interface\\IMemberService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:39:36.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\MemberDto.cs",
+              "RelativeDocumentMoniker": "Services\\DTO\\MemberDto.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\DTO\\MemberDto.cs",
+              "RelativeToolTip": "Services\\DTO\\MemberDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:38:37.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "eStore\\Components\\Pages\\Logout.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\Logout.razor",
+              "RelativeToolTip": "eStore\\Components\\Pages\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:51:06.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccessObjects\\UnitOfWork.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\UnitOfWork.cs",
+              "RelativeToolTip": "DataAccessObjects\\UnitOfWork.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:43:09.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessObjects\\GenericRepository.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\GenericRepository.cs",
+              "RelativeToolTip": "DataAccessObjects\\GenericRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA8wDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:43:01.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EStoreContext.cs",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\EStoreContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\EStoreContext.cs",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\BusinessObjects\\EStoreContext.cs",
+              "RelativeToolTip": "BusinessObjects\\EStoreContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:42:03.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\appsettings.json",
+              "RelativeDocumentMoniker": "eStore\\appsettings.json",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\appsettings.json",
+              "RelativeToolTip": "eStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T03:41:55.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "App.razor",
-              "DocumentMoniker": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\App.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\App.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\App.razor",
-              "ToolTip": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\App.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\App.razor",
               "RelativeToolTip": "eStore\\Components\\App.razor",
               "ViewState": "AgIAAAYAAAAAAAAAAIAwwBEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -63,93 +386,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "Index.razor",
-              "DocumentMoniker": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
-              "ToolTip": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T14:07:48.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T14:07:48.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "Edit.razor",
-              "DocumentMoniker": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Edit.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Edit.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Pages\\ProductPages\\Edit.razor",
-              "ToolTip": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Edit.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Pages\\ProductPages\\Edit.razor",
               "RelativeToolTip": "eStore\\Components\\Pages\\ProductPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T14:04:15.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T14:04:15.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "eStore\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAABAAAAAAAAAAAAAwwCMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T13:56:49.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T13:56:49.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "eStore\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "eStore\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T13:56:47Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 71,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 666,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 666,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2025-07-24T13:56:47Z"
             }
           ]
         }

@@ -1,109 +1,87 @@
 ﻿@page "/members/edit"
-@using Microsoft.EntityFrameworkCore
-@using BusinessObjects
-@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@using Services.DTO
+@inject Services.Interface.IMemberService MemberService
 @inject NavigationManager NavigationManager
 
-<PageTitle>Edit</PageTitle>
+<PageTitle>Chỉnh sửa trạng thái tài khoản</PageTitle>
 
-<h1>Edit</h1>
+<h1>Chỉnh sửa trạng thái tài khoản</h1>
 
-<h2>Member</h2>
-<hr />
-@if (Member is null)
+@if (Member == null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Đang tải...</em></p>
 }
 else
 {
     <div class="row">
         <div class="col-md-4">
-            <EditForm method="post" Model="Member" OnValidSubmit="UpdateMember" FormName="edit" Enhance>
+            <EditForm Model="Member" OnValidSubmit="UpdateMember" FormName="EditMemberForm">
                 <DataAnnotationsValidator />
-                <ValidationSummary role="alert"/>
-                <input type="hidden" name="Member.MemberId" value="@Member.MemberId" />
+                <ValidationSummary />
+
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email:</label>
-                    <InputText id="email" @bind-Value="Member.Email" class="form-control" />
-                    <ValidationMessage For="() => Member.Email" class="text-danger" />
+                    <label class="form-label">Email:</label>
+                    <InputText @bind-Value="Member.Email" class="form-control" readonly />
                 </div>
                 <div class="mb-3">
-                    <label for="companyname" class="form-label">CompanyName:</label>
-                    <InputText id="companyname" @bind-Value="Member.CompanyName" class="form-control" />
-                    <ValidationMessage For="() => Member.CompanyName" class="text-danger" />
+                    <label class="form-label">Company Name:</label>
+                    <InputText @bind-Value="Member.CompanyName" class="form-control" readonly />
                 </div>
                 <div class="mb-3">
-                    <label for="city" class="form-label">City:</label>
-                    <InputText id="city" @bind-Value="Member.City" class="form-control" />
-                    <ValidationMessage For="() => Member.City" class="text-danger" />
+                    <label class="form-label">City:</label>
+                    <InputText @bind-Value="Member.City" class="form-control" readonly />
                 </div>
                 <div class="mb-3">
-                    <label for="country" class="form-label">Country:</label>
-                    <InputText id="country" @bind-Value="Member.Country" class="form-control" />
-                    <ValidationMessage For="() => Member.Country" class="text-danger" />
+                    <label class="form-label">Country:</label>
+                    <InputText @bind-Value="Member.Country" class="form-control" readonly />
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Password:</label>
-                    <InputText id="password" @bind-Value="Member.Password" class="form-control" />
-                    <ValidationMessage For="() => Member.Password" class="text-danger" />
+                    <label class="form-label">Password:</label>
+                    <InputText @bind-Value="Member.Password" class="form-control" readonly />
                 </div>
-                <button type="submit" class="btn btn-primary">Save</button>
+
+                <div class="mb-3 form-check">
+                    <InputCheckbox @bind-Value="Member.IsActive" class="form-check-input" id="isActiveCheckbox" />
+                    <label for="isActiveCheckbox" class="form-check-label">
+                        @(Member.IsActive ? "Hoạt động" : "Vô hiệu hóa")
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Lưu trạng thái</button>
             </EditForm>
         </div>
     </div>
 }
 
-<div>
-    <a href="/members">Back to List</a>
+<div class="mt-3">
+    <a href="/members">Quay lại danh sách</a>
 </div>
 
 @code {
     [SupplyParameterFromQuery]
     private int MemberId { get; set; }
 
-    [SupplyParameterFromForm]
-    private Member? Member { get; set; }
+    private MemberDto? Member;
 
     protected override async Task OnInitializedAsync()
     {
-        using var context = DbFactory.CreateDbContext();
-        Member ??= await context.Members.FirstOrDefaultAsync(m => m.MemberId == MemberId);
+        Member = await MemberService.GetByIdAsync(MemberId);
 
-        if (Member is null)
+        if (Member == null)
         {
-            NavigationManager.NavigateTo("notfound");
+            NavigationManager.NavigateTo("/notfound");
         }
     }
 
-    // To protect from overposting attacks, enable the specific properties you want to bind to.
-    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task UpdateMember()
     {
-        using var context = DbFactory.CreateDbContext();
-        context.Attach(Member!).State = EntityState.Modified;
+        if (Member is null) return;
 
-        try
-        {
-            await context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!MemberExists(Member!.MemberId))
-            {
-                NavigationManager.NavigateTo("notfound");
-            }
-            else
-            {
-                throw;
-            }
-        }
+        // Bỏ qua checkbox, luôn gán IsActive = false
+        Member.IsActive = false;
 
+        await MemberService.UpdateAsync(Member);
         NavigationManager.NavigateTo("/members");
     }
 
-    private bool MemberExists(int memberid)
-    {
-        using var context = DbFactory.CreateDbContext();
-        return context.Members.Any(e => e.MemberId == memberid);
-    }
 }

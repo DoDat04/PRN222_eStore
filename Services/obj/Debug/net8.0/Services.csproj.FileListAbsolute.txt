@@ -52,3 +52,21 @@ C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\Service
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\Services\obj\Debug\net8.0\Services.pdb
 C:\Users\ADMIN LAM\OneDrive\Documents\PRN222\PRN222_eStore\PRN222_eStore\Services\obj\Debug\net8.0\ref\Services.dll
 D:\SEM7\PRN222\GrpAsm\Ass03Solution\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\Services.deps.json
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\Services.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\Services.pdb
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\BusinessObjects.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\DataAccessObjects.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\Services.pdb
+D:\Achire\FPT Document\PRN_GROUP_PROJECT\PRN222_eStore\Services\obj\Debug\net8.0\ref\Services.dll

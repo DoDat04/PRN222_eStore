@@ -1,40 +1,64 @@
 ﻿@page "/members"
-@using Microsoft.EntityFrameworkCore
-@using Microsoft.AspNetCore.Components.QuickGrid
-@using BusinessObjects
-@using BusinessObjects
-@implements IAsyncDisposable
-@inject IDbContextFactory<BusinessObjects.EStoreContext> DbFactory
+@using Services.DTO
+@inject Services.Interface.IMemberService MemberService
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Danh sách thành viên</PageTitle>
 
-<h1>Index</h1>
+<h1>Danh sách thành viên</h1>
 
 <p>
-    <a href="members/create">Create New</a>
+    <a href="members/create">Tạo mới</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Members">
-    <PropertyColumn Property="member => member.Email" />
-    <PropertyColumn Property="member => member.CompanyName" />
-    <PropertyColumn Property="member => member.City" />
-    <PropertyColumn Property="member => member.Country" />
-    <PropertyColumn Property="member => member.Password" />
-
-    <TemplateColumn Context="member">
-        <a href="@($"members/edit?memberid={member.MemberId}")">Edit</a> |
-        <a href="@($"members/details?memberid={member.MemberId}")">Details</a> |
-        <a href="@($"members/delete?memberid={member.MemberId}")">Delete</a>
-    </TemplateColumn>
-</QuickGrid>
+@if (members == null)
+{
+    <p>Đang tải dữ liệu...</p>
+}
+else if (!members.Any())
+{
+    <p>Không có thành viên nào.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Công ty</th>
+                <th>Thành phố</th>
+                <th>Quốc gia</th>
+                <th>Mật khẩu</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in members)
+            {
+                <tr>
+                    <td>@member.Email</td>
+                    <td>@member.CompanyName</td>
+                    <td>@member.City</td>
+                    <td>@member.Country</td>
+                    <td>@member.Password</td>
+                    <td>
+                        @(member.IsActive ? "Hoạt động" : "Vô hiệu hóa")
+                    </td>
+                    <td>
+                        <a href="@($"members/details?memberid={member.MemberId}")">Chi tiết</a> 
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code {
-    private EStoreContext context = default!;
+    private List<MemberDto>? members;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        context = DbFactory.CreateDbContext();
+        var result = await MemberService.GetAllAsync();
+        members = result.ToList();
     }
-
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }

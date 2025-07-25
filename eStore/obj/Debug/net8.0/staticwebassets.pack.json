@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eStore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\eStore\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eStore.props",
+      "PackagePath": "build\\eStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eStore.props",
+      "PackagePath": "buildMultiTargeting\\eStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eStore.props",
+      "PackagePath": "buildTransitive\\eStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

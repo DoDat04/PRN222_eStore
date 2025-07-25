@@ -3243,24 +3243,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\Services\\Services.csproj",
+      "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\Services\\obj\\",
+      "outputPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3268,15 +3263,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Achire\\Document\\Microservice_Demo\\projects\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
-              "projectPath": "E:\\FPT\\PRN222\\GroupASM\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj"
+            "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj": {
+              "projectPath": "D:\\Achire\\FPT Document\\PRN_GROUP_PROJECT\\PRN222_eStore\\DataAccessObjects\\DataAccessObjects.csproj"
             }
           }
         }

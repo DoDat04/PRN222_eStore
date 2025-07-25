@@ -8,6 +8,8 @@ using BusinessObjects;
 using Microsoft.EntityFrameworkCore;
 using DataAccessObjects;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Services.Interface;
+using Services.Implement;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +24,8 @@ builder.Services.AddDbContextFactory<EStoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+
 
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();
@@ -39,6 +43,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IMemberService, MemberService>();
+
 builder.Services.AddAuthorizationCore();
 
 var app = builder.Build();

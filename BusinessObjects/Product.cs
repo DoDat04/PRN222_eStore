@@ -17,6 +17,10 @@ public partial class Product
 
     public int UnitsInStock { get; set; }
 
+    public string? ImageUrl { get; set; }
+
+    public double Discount { get; set; }
+
     public virtual Category? Category { get; set; }
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();

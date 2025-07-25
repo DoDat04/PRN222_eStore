@@ -19,6 +19,12 @@
     <InputText @bind-Value="loginModel.Password" placeholder="Mật khẩu" type="password" />
     <button type="submit">Đăng nhập</button>
 </EditForm>
+<p>
+    Chưa có tài khoản?
+    <NavLink href="/register">Đăng ký ngay</NavLink>
+</p>
+
+
 
 @if (!string.IsNullOrEmpty(errorMessage))
 {
