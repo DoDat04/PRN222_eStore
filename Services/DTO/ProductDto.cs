@@ -1,10 +1,5 @@
 ﻿using BusinessObjects;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services.DTO
 {
@@ -39,10 +34,10 @@ namespace Services.DTO
         [Url(ErrorMessage = "Invalid URL format.")]
         [Display(Name = "Image URL")]
         public string? ImageUrl { get; set; }
-
         [Required(ErrorMessage = "Discount is required")]
         [Range(0.0, 1.0, ErrorMessage = "Discount must be between 0.0 and 1.0.")]
         public double Discount { get; set; }
+        public bool IsActive { get; set; }
         public virtual Category? Category { get; set; }
         public string? CategoryName { get; set; }
     }

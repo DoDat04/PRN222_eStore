@@ -29,15 +29,11 @@ public partial class EStoreContext : DbContext
 
     public virtual DbSet<Product> Products { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(local);Database=eStore;User Id=sa;Password=12345;TrustServerCertificate=True");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Cart>(entity =>
         {
-            entity.HasKey(e => e.CartId).HasName("PK__Cart__51BCD7B7651CDD99");
+            entity.HasKey(e => e.CartId).HasName("PK__Cart__51BCD7B7C38AB278");
 
             entity.ToTable("Cart");
 
@@ -48,24 +44,24 @@ public partial class EStoreContext : DbContext
             entity.HasOne(d => d.Member).WithMany(p => p.Carts)
                 .HasForeignKey(d => d.MemberId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Cart__MemberId__7A672E12");
+                .HasConstraintName("FK__Cart__MemberId__5812160E");
         });
 
         modelBuilder.Entity<CartItem>(entity =>
         {
-            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B0A8BF16BFC");
+            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B0A3C5369A1");
 
             entity.ToTable("CartItem");
 
             entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
                 .HasForeignKey(d => d.CartId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CartItem__CartId__7E37BEF6");
+                .HasConstraintName("FK__CartItem__CartId__59063A47");
 
             entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
                 .HasForeignKey(d => d.ProductId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CartItem__Produc__7F2BE32F");
+                .HasConstraintName("FK__CartItem__Produc__59FA5E80");
         });
 
         modelBuilder.Entity<Category>(entity =>
@@ -123,6 +119,7 @@ public partial class EStoreContext : DbContext
         modelBuilder.Entity<Product>(entity =>
         {
             entity.Property(e => e.ImageUrl).HasMaxLength(255);
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
             entity.Property(e => e.ProductName).HasMaxLength(40);
             entity.Property(e => e.UnitPrice).HasColumnType("money");
             entity.Property(e => e.Weight).HasMaxLength(20);

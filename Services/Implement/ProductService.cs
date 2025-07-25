@@ -11,6 +11,7 @@ namespace Services.Implement
 
         public ProductService(IUnitOfWork unitOfWork)
         {
+
             _unitOfWork = unitOfWork;
         }
 
@@ -37,7 +38,8 @@ namespace Services.Implement
             var product = _unitOfWork.Products.GetById(id);
             if (product != null)
             {
-                _unitOfWork.Products.Delete(product);
+                product.IsActive = false;
+                _unitOfWork.Products.Update(product);
                 _unitOfWork.Save();
             }
             return Task.CompletedTask;
@@ -45,7 +47,7 @@ namespace Services.Implement
 
         public Task<IEnumerable<ProductDto>> GetAllAsync()
         {
-            var products = _unitOfWork.Products.GetAll(x => x.Category);
+            var products = _unitOfWork.Products.GetAll(x => x.IsActive == true, x => x.Category);
             var result = products.Select(p => new ProductDto
             {
                 ProductId = p.ProductId,
@@ -56,7 +58,8 @@ namespace Services.Implement
                 UnitsInStock = p.UnitsInStock,
                 ImageUrl = p.ImageUrl,
                 Discount = p.Discount,
-                CategoryName = p.Category != null ? p.Category.CategoryName : string.Empty
+                CategoryName = p.Category != null ? p.Category.CategoryName : string.Empty,
+                IsActive = p.IsActive
             });
             return Task.FromResult(result);
         }
@@ -76,7 +79,8 @@ namespace Services.Implement
                 UnitPrice = existingProduct.UnitPrice,
                 UnitsInStock = existingProduct.UnitsInStock,
                 ImageUrl = existingProduct.ImageUrl,
-                Discount = existingProduct.Discount
+                Discount = existingProduct.Discount,
+                IsActive = existingProduct.IsActive
             };
             return Task.FromResult<ProductDto?>(result);
         }
@@ -96,6 +100,7 @@ namespace Services.Implement
                 existingProduct.UnitsInStock = productDto.UnitsInStock;
                 existingProduct.ImageUrl = productDto.ImageUrl;
                 existingProduct.Discount = productDto.Discount;
+                existingProduct.IsActive = productDto.IsActive;
 
                 _unitOfWork.Products.Update(existingProduct);
                 _unitOfWork.Save();

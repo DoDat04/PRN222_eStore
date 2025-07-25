@@ -21,15 +21,18 @@ namespace DataAccessObjects.Implement
             _dbSet = context.Set<T>();
         }
 
-        public IEnumerable<T> GetAll(params Expression<Func<T, object>>[] includes)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, params Expression<Func<T, object>>[] includes)
         {
             IQueryable<T> query = _dbSet;
+            if (filter != null)
+                query = query.Where(filter);
             foreach (var include in includes)
             {
                 query = query.Include(include);
             }
             return query.ToList();
         }
+
         public T? GetById(object id)
         {
             return _dbSet.Find(id);

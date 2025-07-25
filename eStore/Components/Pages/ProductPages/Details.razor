@@ -29,7 +29,8 @@
             <dd class="col-sm-9">@Product.UnitsInStock</dd>
             <dt class="col-sm-3">Giảm giá</dt>
             <dd class="col-sm-9">@($"{Product.Discount * 100:0.##}%")</dd>
-
+            <dt class="col-sm-3">Trạng thái</dt>
+            <dd class="col-sm-9">@(Product.IsActive ? "Đang bán" : "Ngừng bán")</dd>
         </dl>
         <div>
             <a href="@($"/products/edit?productid={Product.ProductId}")">Chỉnh sửa</a> |

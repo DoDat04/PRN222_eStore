@@ -65,6 +65,11 @@ else
                     <InputNumber id="unitsinstock" @bind-Value="Product.Discount" class="form-control" required />
                     <ValidationMessage For="() => Product.Discount" class="text-danger" />
                 </div>
+                <div class="mb-3">
+                    <label for="isactive" class="form-label">Trạng thái hoạt động:</label>
+                    <InputCheckbox id="isactive" @bind-Value="Product.IsActive" class="form-check-input" />
+                    <span class="ms-2">@((Product.IsActive) ? "Đang bán" : "Ngừng bán")</span>
+                </div>
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>

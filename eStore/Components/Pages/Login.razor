@@ -5,7 +5,7 @@
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
 @using Microsoft.AspNetCore.Components.Authorization
-@using eStore.DTO.MemberDTO.Response
+@using Services.DTO
 @using Services;
 @inject CustomAuthenticationStateProvider AuthProvider
 @inject NavigationManager NavigationManager
@@ -37,8 +37,6 @@
 }
 
 @code {
-    // [CascadingParameter] private HttpContext? HttpContext { get; set; }  // XÓA DÒNG NÀY
-
     [SupplyParameterFromForm] private LoginRequest loginModel { get; set; } = new();
     private string errorMessage = string.Empty;
     private string successMessage = string.Empty;

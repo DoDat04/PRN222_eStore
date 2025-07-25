@@ -30,6 +30,7 @@ else
                 <th>Giá</th>
                 <th>Tồn kho</th>
                 <th>Giảm giá</th>
+                <th>Trạng thái</th>
                 <th>Hành động</th>
             </tr>
         </thead>
@@ -43,6 +44,7 @@ else
                     <td>@(product.UnitPrice.HasValue ? string.Format("{0:N0} VND", product.UnitPrice) : "")</td>
                     <td>@product.UnitsInStock</td>
                     <td>@($"{product.Discount * 100:0.##}%")</td>
+                    <td>@(product.IsActive ? "Đang bán" : "Ngừng bán")</td>
                     <td>
                         <a href="@($"products/edit?productid={product.ProductId}")">Edit</a> |
                         <a href="@($"products/details?productid={product.ProductId}")">Details</a> |
